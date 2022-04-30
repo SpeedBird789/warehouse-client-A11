@@ -1,0 +1,56 @@
+[
+    {
+        "_id": 1,
+        "name": "Dell XPS 15",
+        "description": "Best product from Dell",
+        "price": "1350",
+        "quantity": "7",
+        "supplier": "Dell",
+        "img": "https://i.ibb.co/dGDkr4v/1.jpg" 
+    },
+    {
+        "_id": 2,
+        "name": "Vivo S50",
+        "description": "Best product from Vivo",
+        "price": "1050",
+        "quantity": "3",
+        "supplier": "Vivo",
+        "img": "https://i.ibb.co/tY8dmnP/2.jpg" 
+    },
+    {
+        "_id": 3,
+        "name": "Macbook Pro",
+        "description": "Best product from Apple",
+        "price": "1850",
+        "quantity": "14",
+        "supplier": "Apple",
+        "img": "https://i.ibb.co/Yh04YVw/3.jpg" 
+    },
+    {
+        "_id": 4,
+        "name": "Lenovo Yoga Slim 7",
+        "description": "Best product from Lenovo",
+        "price": "1250",
+        "quantity": "9",
+        "supplier": "Lenovo",
+        "img": "https://i.ibb.co/ZX2Cbkn/4.jpg" 
+    },
+    {
+        "_id": 5,
+        "name": "HP Spectre x360",
+        "description": "Best product from HP",
+        "price": "1650",
+        "quantity": "2",
+        "supplier": "HP",
+        "img": "https://i.ibb.co/FgQ3jXp/5.jpg" 
+    },
+    {
+        "_id": 6,
+        "name": "Asus Zenbook",
+        "description": "Best product from Asus",
+        "price": "1150",
+        "quantity": "6",
+        "supplier": "Asus",
+        "img": "https://i.ibb.co/zJy5ZDd/6.jpg" 
+    }
+]
