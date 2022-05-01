@@ -1,19 +1,20 @@
 import React from 'react';
-import hub1 from '../../../images/experts/expert-1.jpg';
-import hub2 from '../../../images/experts/expert-2.jpg';
-import hub3 from '../../../images/experts/expert-3.jpg';
-import hub4 from '../../../images/experts/expert-4.jpg';
-import hub5 from '../../../images/experts/expert-5.jpg';
-import hub6 from '../../../images/experts/expert-6.png';
+import uk from '../../../images/flags/United_Kingdom.jpg';
+import usa from '../../../images/flags/United_States.jpg';
+import australia from '../../../images/flags/australia.jpg';
+import uae from '../../../images/flags/uae.jpg';
+import india from '../../../images/flags/India.jpg';
+import italy from '../../../images/flags/Italy.jpg';
+
 import Hub from '../Hub/Hub';
 
 const hubs = [
-    {_id: 1, name: 'London, UK', img: hub1},
-    {_id: 2, name: 'Los Angeles, USA', img: hub2},
-    {_id: 3, name: 'Sydney, Australia', img: hub3},
-    {_id: 4, name: 'Dubai, UAE', img: hub4},
-    {_id: 5, name: 'Mumbai, India', img: hub5},
-    {_id: 6, name: 'Milan, Italy', img: hub6},
+    {_id: 1, name: 'London, UK', description: 'Our UK based hub at the centre of London', img: uk},
+    {_id: 2, name: 'Los Angeles, USA',  description: 'Our USA based hub at the centre of Los Angeles', img: usa},
+    {_id: 3, name: 'Sydney, Australia',  description: 'Our Australia based hub at the centre of Sydney', img: australia},
+    {_id: 4, name: 'Dubai, UAE',  description: 'Our UAE based hub at the centre of Dubai', img: uae},
+    {_id: 5, name: 'Mumbai, India',  description: 'Our India based hub at the centre of Mumbai',  img: india},
+    {_id: 6, name: 'Milan, Italy',  description: 'Our Italy based hub at the centre of Milan', img: italy}
 ]
 
 const Hubs = () => {
