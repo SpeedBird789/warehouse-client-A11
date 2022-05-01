@@ -5,6 +5,7 @@
         "description": "Best product from Dell",
         "price": "1350",
         "quantity": "7",
+        "sold": "2",
         "supplier": "Dell",
         "img": "https://i.ibb.co/dGDkr4v/1.jpg" 
     },
@@ -14,6 +15,7 @@
         "description": "Best product from Vivo",
         "price": "1050",
         "quantity": "3",
+        "sold": "1",
         "supplier": "Vivo",
         "img": "https://i.ibb.co/tY8dmnP/2.jpg" 
     },
@@ -23,6 +25,7 @@
         "description": "Best product from Apple",
         "price": "1850",
         "quantity": "14",
+        "sold": "6",
         "supplier": "Apple",
         "img": "https://i.ibb.co/Yh04YVw/3.jpg" 
     },
@@ -32,6 +35,7 @@
         "description": "Best product from Lenovo",
         "price": "1250",
         "quantity": "9",
+        "sold": "4",
         "supplier": "Lenovo",
         "img": "https://i.ibb.co/ZX2Cbkn/4.jpg" 
     },
@@ -41,6 +45,7 @@
         "description": "Best product from HP",
         "price": "1650",
         "quantity": "2",
+        "sold": "1",
         "supplier": "HP",
         "img": "https://i.ibb.co/FgQ3jXp/5.jpg" 
     },
@@ -50,6 +55,7 @@
         "description": "Best product from Asus",
         "price": "1150",
         "quantity": "6",
+        "sold": "3",
         "supplier": "Asus",
         "img": "https://i.ibb.co/zJy5ZDd/6.jpg" 
     }
