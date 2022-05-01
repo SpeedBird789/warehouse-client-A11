@@ -1,9 +1,11 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import useInventories from '../../hooks/useInventories';
 
 
 const Manage = () => {
    const [inventories, setInventories] = useInventories();
+   const navigate = useNavigate();
 
    const handleDelete = id =>{
        const proceed = window.confirm('Are you sure you want to delete this item?')
@@ -27,7 +29,7 @@ const Manage = () => {
 
             {
                 inventories.map(inventory => <div key={inventory._id}>
-                    <h5>{inventory.name} <button onClick={()=> handleDelete(inventory._id)}>Delete</button> <button>Add New Item</button></h5>
+                    <h5>{inventory.name} <button className='btn btn-danger ms-2' onClick={()=> handleDelete(inventory._id)}>Delete</button> <button className='btn btn-success' onClick={()=>navigate('/addinventory')}>Add New Item</button></h5>
                 </div>)
             }
         </div>

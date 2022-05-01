@@ -4,6 +4,26 @@ import { Link, useParams } from 'react-router-dom';
 const InventoryDetail = () => {
     const { id } = useParams();
     const [inventory, setInventory] = useState({}); 
+    // const {quantity} = inventory;
+
+
+    // const [product, setProduct] = useState({});
+    // const { quantity} = product;
+
+    // function removeOne() {
+    //     let newQuantity = quantity - 1;
+    //     const newInventory = { ...inventory, quantity: newInventory }
+    //     //copy all previous data if exist in product and setup new quantity 
+    //     setInventory(newInventory);
+    //     fetch(`http://localhost:5000/inventory/${id}`, {
+    //         method: 'PUT',
+    //         headers: {
+    //             'Content-Type': 'application/json'
+    //         },
+    //         body: JSON.stringify(newInventory)
+    //     })
+    // }
+
 
     useEffect(()=>{
         const url = `http://localhost:5000/inventory/${id}`;

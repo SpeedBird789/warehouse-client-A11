@@ -19,7 +19,7 @@ const Inventories = () => {
             <h1 className='mt-5 mb-3 inventories-title'>Inventories: </h1>
             <div className='inventories-container'>
                 {
-                    inventories.map(inventory => <Inventory key={inventory._id} inventory={inventory}></Inventory>)
+                    inventories.slice(0,6).map(inventory => <Inventory key={inventory._id} inventory={inventory}></Inventory>)
                 }
             </div>
             <div className='text-center mt-4'>
