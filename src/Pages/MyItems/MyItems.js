@@ -18,7 +18,7 @@ const MyItems = () => {
 
     return (
         <div style={{minHeight: '65vh'}}>
-            <h2 className='text-center mt-2'>My Items: {myItems.length} </h2>
+            <h2 className='text-center mt-3'>My Items: {myItems.length} </h2>
         </div>
     );
 };
