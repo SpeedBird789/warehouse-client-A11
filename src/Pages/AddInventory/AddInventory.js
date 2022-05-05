@@ -23,7 +23,7 @@ const AddInventory = () => {
 
 
     return (
-        <div className='w-50 mx-auto'>
+        <div style={{minHeight: '63vh'}} className='w-50 mx-auto'>
             <h2 className='text-center mt-3 mb-3'>Add an inventory</h2>
             <form className='d-flex flex-column' onSubmit={handleSubmit(onSubmit)}>
                 <input className='mb-2' placeholder='Name' {...register("name", { required: true })} />

@@ -17,8 +17,8 @@ const MyItems = () => {
 
 
     return (
-        <div>
-            <h2>My Items: {myItems.length} </h2>
+        <div style={{minHeight: '65vh'}}>
+            <h2 className='text-center'>My Items: {myItems.length} </h2>
         </div>
     );
 };

@@ -24,7 +24,7 @@ const Manage = () => {
    }
 
     return (
-        <div className='w-50 mx-auto'>
+        <div style={{minHeight: '69vh'}} className='w-50 mx-auto'>
             <h1 className='text-center mt-2'>Manage Your Inventory Here</h1>
 
             {

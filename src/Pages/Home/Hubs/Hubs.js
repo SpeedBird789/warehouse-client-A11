@@ -20,7 +20,8 @@ const hubs = [
 const Hubs = () => {
     return (
         <div id='hubs' className='container'>
-            <h2 className='mt-5 mb-3 text-center text-info'>Our Other Hubs:</h2>
+            <h2 className='text-center text-info mt-5'>We Are International!</h2>
+            <h2 className=' mb-3 text-center '>Our Other Hubs:</h2>
             <div className='row'>
                 {
                     hubs.map(hub => <Hub key={hub._id} hub={hub}>

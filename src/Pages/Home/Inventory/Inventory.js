@@ -12,7 +12,7 @@ const Inventory = ({inventory}) => {
 
     return (
         <div className='inventory'>
-            <img src={img} alt="" />
+            <img className='img-fluid w-100' src={img} alt="" />
             <h2>{name}</h2>
             <p>{description}</p>
             <h4>Price: £{price}</h4>
