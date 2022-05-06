@@ -7,7 +7,7 @@ const MyItems = () => {
 
     useEffect(()=>{
         const getMyItems = async() =>{
-            const url = `http://localhost:5000/myitems`;
+            const url = `https://safe-savannah-72930.herokuapp.com/myitems`;
             const {data} = await axios.get(url);
             setMyItems(data);
         }

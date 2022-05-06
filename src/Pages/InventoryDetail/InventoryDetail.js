@@ -15,7 +15,7 @@ const InventoryDetail = () => {
     //     const newInventory = { ...inventory, quantity: newInventory }
     //     //copy all previous data if exist in product and setup new quantity 
     //     setInventory(newInventory);
-    //     fetch(`http://localhost:5000/inventory/${id}`, {
+    //     fetch(`https://safe-savannah-72930.herokuapp.com/inventory/${id}`, {
     //         method: 'PUT',
     //         headers: {
     //             'Content-Type': 'application/json'
@@ -26,7 +26,7 @@ const InventoryDetail = () => {
 
 
     useEffect(()=>{
-        const url = `http://localhost:5000/inventory/${id}`;
+        const url = `https://safe-savannah-72930.herokuapp.com/inventory/${id}`;
 
         fetch(url)
         .then(res => res.json())

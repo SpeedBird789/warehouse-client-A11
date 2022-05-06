@@ -1,6 +1,6 @@
 # Welcome To Continental Warehouse 
 
-Visit the live site here: [Continental Warehouse](https://independent-service-prov-374f1.web.app/).
+Visit the live site here: [Continental Warehouse](https://warehouse-management-87a78.web.app/).
 
 ## About this project
 
@@ -11,7 +11,7 @@ In this project, I tried to make a Warehouse Management website. Due to time con
 * Hubs shows some of the international branches that the company operates from.
 * About section is a short introduction of the company (it doesn't exist irl); nothing too serious here.
 * Blogs section displays 3 web-dev related questions and their answers. This however is just for my practice and isn't necessarily related to this project.
-* Example works section shows some of the latest clicks the spotter has taken from around the globe, acting as a portfolio.
+
 
 ## Some of the tools used in this project are:
 1) React Router

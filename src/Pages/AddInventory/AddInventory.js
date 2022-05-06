@@ -6,7 +6,7 @@ const AddInventory = () => {
 
     const onSubmit = data => {
         console.log(data);
-        const url = `http://localhost:5000/inventory`;
+        const url = `https://safe-savannah-72930.herokuapp.com/inventory`;
         fetch(url, {
             method: 'POST',
             headers: {
