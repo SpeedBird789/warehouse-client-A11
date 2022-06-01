@@ -7,6 +7,7 @@ const NotFound = () => {
             <h2 className='text-center mb-3'>Oops! Looks like you're in the wrong place :(</h2>
             <img className='w-100' src={notFound404} alt="" />
         </div>
+        // abcd
     );
 };
 
